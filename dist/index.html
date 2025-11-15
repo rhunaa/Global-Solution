@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
+    <!-- Header -->
+
+  <div class="p-5 mt-3 bg-gradient-to-r from-teal-900 via-teal-600 to-violet-900 ">
+    <h1 class="text-6xl text-white text-center ">HUMAN WORK 2035</h1>
+    <p class="text-white text-center mt-3 ">
+      O trabalho está mudando. Descubra 40 profissões que unem inteligência artificial, criatividade e propósito.
+    </p>
+  </div>
+
+  <!-- Campo Geral -->
+
+  <section class="">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 m-6 items-end">
+
+      <!-- Campo de busca -->
+
+      <div class="md:col-span-2">
+        <input type="text" id="txtBuscar" placeholder="Buscar"
+          class="w-full border border-violet-900 rounded-full px-3 py-2 placeholder:text-gray-400" required>
+      </div>
+
+      <!-- Campo do select -->
+      <div>
+        <select id="filtroProfissao"
+          class="form-select border w-full rounded-full bg-violet-800 text-white px-3 py-2.5 ">
+          <option value="todos">Todos</option>
+        </select>
+      </div>
+    </div>
     
 </body>
 </html>
